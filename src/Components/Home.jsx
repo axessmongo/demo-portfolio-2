@@ -49,7 +49,11 @@ function Home() {
         <div className='overflow-x-hidden'>
             {/* Nav-Start */}
             <div>
+            <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+                        <Link to="https://axesstechnology.in/contact" className='buy-now-bt'>BuyNow</Link>
+                    </div>
                 <nav class="navbar navbar-expand-lg " id='home'>
+                    
                     <div class="container-fluid bg-body-tertiary home-nav border-bottom" data-aos="fade-up" data-aos-duration="600">
                         <Link class="navbar-brand" onClick={() => gotoTop('home')} >
                             {/* <img src={navimg} alt=" navlogo" /> */}
@@ -132,7 +136,7 @@ function Home() {
                         <div className='row pt-3 mt-3 '>
                             <div className='col-6' style={{ color: "#1e2125", fontWeight: "500" }}>
                                 <p>MY LINKEDIN PROFILE</p>
-                                <Link to="/" target='_blank'>  
+                                <Link to="/" target='_blank'>
                                     <img src={linked} alt="Linkedin logo" className='img-fluid p-2' style={{ boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px', width: '38px' }} /></Link>
                             </div>
                             <div className='col-6' style={{ color: "#1e2125", fontWeight: "500" }}>
@@ -1627,8 +1631,8 @@ function Home() {
 
             {/* Contact-Start */}
             <div>
-                <div class="elementor-widget-container" id='contact' style={{ margin: "3rem" }}    data-aos="fade-right"
-                        data-aos-duration="600">
+                <div class="elementor-widget-container" id='contact' style={{ margin: "3rem" }} data-aos="fade-right"
+                    data-aos-duration="600">
                     <div class="section-title text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true">
                         <span class="subtitle sub-title" style={{ fontFamily: '"Montserrat", sans-serif' }}>Contact</span>
                         <h2 class="title sec-title " style={{ color: "black", fontSize: "25px" }}>CONTACT WITH ME
@@ -1638,7 +1642,7 @@ function Home() {
                 <div className="container mt-5">
                     <div className="row gx-md-5">
                         <div className="col-md-5">
-                            <div className="card custom-card p-5" style={{ height: "850px" }}    data-aos="zoom-in" data-aos-duration="500">
+                            <div className="card custom-card p-5" style={{ height: "850px" }} data-aos="zoom-in" data-aos-duration="500">
                                 <a href="/">
                                     <img
                                         src={contactimg}
@@ -1655,7 +1659,7 @@ function Home() {
                                         Want to get in touch on Developing? Here's how you can reach me! - HAPPY CONNECTING!
                                     </p>
                                     <div className='phone mb-4' style={{ fontSize: "20px" }}>Phone: <a href="tel:+918667672605" className='heading6'>+91
-                                      xxxxxx</a></div>
+                                        xxxxxx</a></div>
                                     <div className='email' style={{ fontSize: "20px" }}>Email: <a href="mailto:venkteshanj@axesstechnology.in" className='heading6'>xxx@xxx</a></div>
                                 </div>
                                 <div className="social-area mb-4">
