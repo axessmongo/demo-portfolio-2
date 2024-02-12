@@ -50,7 +50,7 @@ function Home() {
             {/* Nav-Start */}
             <div>
             <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
-                        <Link to="https://axesstechnology.in/contact" className='buy-now-bt'>BuyNow</Link>
+                        <Link to="https://axesstechnology.in/contact" target='_blank' className='buy-now-bt'>BuyNow</Link>
                     </div>
                 <nav class="navbar navbar-expand-lg " id='home'>
                     
