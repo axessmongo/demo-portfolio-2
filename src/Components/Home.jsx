@@ -193,9 +193,9 @@ function Home() {
                                 <li>AWS (Amazon Web Services)</li>
                                 <li>EC2 (Elastic Compute Cloud)</li>
                                 <li>Lambda</li>
-                                <li>S3 (Simple Storage Service)</li>
+                                {/* <li>S3 (Simple Storage Service)</li>
                                 <li>RDS (Relational Database Service)</li>
-                                <li>VPC (Virtual Private Cloud)</li>
+                                <li>VPC (Virtual Private Cloud)</li> */}
                                 <li>CloudWatch</li>
                                 <li>Firebase</li>
                             </ul>
@@ -210,8 +210,8 @@ function Home() {
                             </ul>
                         </div>
                     </div>
-                    <div className="row d-flex justify-content-between px-md-5 mt-3">
-                        <div className="col-md-2">
+                    {/* <div className="row d-flex justify-content-evenly">
+                        <div className="col-md-3">
                             <h6 style={{ color: "#27272E", fontWeight: "700" }} className='heading6'>Machine Learning </h6>
                             <ul className="mt-3 card-li ">
                                 <li>Python</li>
@@ -233,7 +233,7 @@ function Home() {
                                 <li>Spring MVC</li>
                                 <li>Hibernate</li>
                             </ul></div>
-                        <div className="col-md-3"> <h6 style={{ color: "#27272E", fontWeight: "bold" }} className='heading6'>Other Tools</h6>
+                        <div className="col-md-3 "> <h6 style={{ color: "#27272E", fontWeight: "bold" }} className='heading6'>Other Tools</h6>
                             <ul className="mt-3 card-li">
                                 <li>JIRA</li>
                                 <li>Bitbucket</li>
@@ -242,7 +242,7 @@ function Home() {
 
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
             </div>
             {/* Skills-end */}
@@ -611,7 +611,7 @@ function Home() {
                             aria-labelledby="pills-home-tab"
                             tabindex="0"
                         >
-                            <section>
+                            {/* <section>
                                 <div className="row d-flex justify-content-around " >
                                     <div className="col-md-3 mt-5 rounded-4 experience" data-aos="fade-right" data-aos-duration="500" >
                                         <div className="row container-fluid">
@@ -964,10 +964,10 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </section>
+                            </section> */}
                             <section>
                                 <div className="row">
-                                    <div className="col-md-5  container mt-5 pt-5">
+                                    <div className="col-md-5  container ">
                                         <div className="d-flex justify-content-center mt-5" data-aos="fade-left" data-aos-duration="600">
                                             <div className=" professinal experience p-3 m-3 rounded-3">
                                                 <div className="row align-items-center justify-content-between">
@@ -1002,7 +1002,7 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-5  container mt-5 pt-5">
+                                    {/* <div className="col-md-5  container mt-5 pt-5">
                                         <div className="d-flex justify-content-center mt-5" data-aos="fade-right" data-aos-duration="500" >
                                             <div className=" professinal experience  p-3 m-3 rounded-3">
                                                 <div className="row align-items-center justify-content-between">
@@ -1036,7 +1036,7 @@ function Home() {
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </section>
                         </div>
